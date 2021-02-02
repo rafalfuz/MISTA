@@ -1,0 +1,109 @@
+.header{
+    width: 100%;
+    height: 100%;
+    font-family: 'Tinos', serif;
+    display: flex;
+    &__line{
+        margin-left: 25%;
+        background: rgb(247,230,220);
+        background: radial-gradient(circle, rgba(247,230,220,1) 0%, rgba(255,255,255,1) 50%, rgba(247,230,220,1) 100%);
+        width: 1%;
+        height: 75%;
+    }
+    &__company{
+        font-size: 9rem;
+        align-self: flex-end;
+        margin-bottom: 10%;
+        flex-basis: 75%;
+        writing-mode: vertical-lr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .header{
+        display: block;
+        position: relative;
+        &__line{
+            position: absolute;
+            top: 75%;
+            background: rgb(247,230,220);
+            background: radial-gradient(circle, rgba(247,230,220,1) 0%, rgba(255,255,255,1) 50%, rgba(247,230,220,1) 100%);
+            width: 75%;
+            height: 1%;
+            margin-left: 0;
+            margin-bottom: 25%;
+        }
+        &__company{
+            position: absolute;
+            top: 40%;
+            right: 5%;
+            font-size: 7rem;
+            writing-mode: horizontal-tb;
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .header{
+        display: flex;
+        position: static;
+        &__line{
+            position: static;
+            margin-left: 25%;
+            width: 1%;
+            height: 75%;
+        }
+        &__company{
+            position: static;
+            font-size: 4.5rem;
+            align-self: flex-end;
+            margin-bottom: 10%;
+            flex-basis: 75%;
+            writing-mode: vertical-lr;
+        }
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .header{
+        &__company{
+            font-size: 4rem;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .header{
+        &__company{
+            font-size: 3rem;
+        }
+    }
+  }
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .header{
+        display: block;
+        position: relative;
+        &__line{
+            position: absolute;
+            top: 75%;
+            width: 75%;
+            height: 1%;
+            margin-left: 0;
+            margin-bottom: 25%;
+        }
+        &__company{
+            position: absolute;
+            top: 40%;
+            right: 5%;
+            font-size: 3rem;
+            writing-mode: horizontal-tb;
+        }
+    }
+  }

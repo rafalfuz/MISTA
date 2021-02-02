@@ -1,0 +1,166 @@
+.product{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__list{
+        list-style-type: none;
+        &__item{
+            text-transform: uppercase;
+            text-decoration: underline #f7e6dc solid;
+            //border-top: 5px solid #f7e6dc;
+        }
+}
+}
+
+@media (min-width: 1281px) {
+    //DESKTOP
+    .product{
+        &__list{
+            &__item{
+                font-size: 1.7em;
+                margin-bottom: 8%;
+            }
+            &__item:nth-child(odd){
+                margin-left: -25%;
+                margin-bottom: 10%;
+            }
+            &__item:nth-child(even){
+                margin-left: 25%;
+                margin-bottom: 0;
+            }
+            &__item:nth-child(4){
+                //margin-left: 0;
+            }
+        }
+    }
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    //LAPTOP
+    .product{
+        &__list{
+            &__item{
+                font-size: 1.6em;
+                margin-bottom: 8%;
+            }
+            &__item:nth-child(odd){
+                margin-left: -25%;
+            }
+            &__item:nth-child(even){
+                margin-left: 25%;
+            }
+            &__item:nth-child(4){
+                margin-left: 0;
+            }
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .product{
+        &__list{
+            &__item{
+                font-size: 1.6em;
+                margin-bottom: 5%;
+            }
+            &__item:nth-child(odd){
+                margin-left: 75%;
+            }
+            &__item:nth-child(even){
+                margin-left: -75%;
+            }
+            &__item:nth-child(4){
+                margin-left: -75;
+            }
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .product{
+        &__list{
+            &__item{
+                font-size: 1.4em;
+                margin-bottom: 15%;
+            }
+            &__item:nth-child(odd){
+                margin-left: -25%;
+            }
+            &__item:nth-child(even){
+                margin-left: 25%;
+            }
+            &__item:nth-child(4){
+                margin-left: 0;
+            }
+        }
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .product{
+        &__list{
+            &__item{
+                font-size: 1.1em;
+                margin-bottom: 7.5%;
+            }
+            &__item:nth-child(odd){
+                margin-left: -25%;
+            }
+            &__item:nth-child(even){
+                margin-left: 25%;
+            }
+            &__item:nth-child(4){
+                margin-left: 0;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .product{
+        &__list{
+            &__item{
+                font-size: .9em;
+                margin-bottom: 10%;
+            }
+            &__item:nth-child(odd){
+                margin-left: -25%;
+            }
+            &__item:nth-child(even){
+                margin-left: 25%;
+            }
+            &__item:nth-child(4){
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .product{
+        &__list{
+            &__item{
+                font-size: .8em;
+                margin-bottom: 2%;
+            }
+            &__item:nth-child(odd){
+                margin-left: 75%;
+            }
+            &__item:nth-child(even){
+                margin-left: -75%;
+            }
+            &__item:nth-child(4){
+                margin-left: -75;
+            }
+        }
+    }
+}

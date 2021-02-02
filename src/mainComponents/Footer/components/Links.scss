@@ -1,0 +1,109 @@
+.links{
+    padding-top: 7.5vh;
+    &__title{
+        text-transform: uppercase;
+        margin-bottom: 10%;
+        font-size: 1.8em;
+    }
+    &__list{
+        list-style-type: none;
+        &__link >a{
+            color:white;
+            text-decoration: none;
+        }
+        &__link >a:hover{
+            text-decoration: underline
+        }
+    }
+
+}
+
+@media (min-width: 1281px) {
+    //DESKTOP
+    .links{
+        &__title{
+            margin-bottom: 10%;
+            font-size: 1.8em;
+        }   
+    }
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   //LAPTOP
+   .links{
+    &__title{
+        margin-bottom: 8%;
+        font-size: 1.6em;
+    }   
+}
+  }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .links{
+        &__title{
+            margin-bottom: 8%;
+            font-size: 1.6em;
+        }   
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .links{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1.6em;
+        }   
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .links{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1em;
+        }
+        &__list{
+            &__link{
+                height: 4.5vh;
+            }
+            &__link >a{
+                font-size: .6em;
+            }   
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .links{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1em;
+        }
+        &__list{
+            &__link{
+                height: 4.5vh;
+            }
+            &__link >a{
+                font-size: .6em;
+            }   
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .links{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1.8em;
+        }
+        &__list{
+            &__link >a{
+                font-size: 1em;
+            }   
+        }
+    }
+}

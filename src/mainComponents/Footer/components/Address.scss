@@ -1,0 +1,190 @@
+.address{
+    padding-top: 7.5vh;
+    &__title{
+        text-transform: uppercase;
+        margin-bottom: 10%;
+        font-size: 1.8em;
+    }
+    &__name{
+        font-size: 1.5em;
+    }
+    &__street{
+        font-size: 1.2em;
+        margin-bottom: 10%;
+    }
+    &__number{
+        font-size: 1.1em;
+        &__call{
+            color :#f7e6dc;
+            text-decoration: none;
+        }
+    }
+    &__mail{
+        font-size: 1.1em;
+        &__send{
+            color: #f7e6dc;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (min-width: 1281px) {
+    //DESKTOP
+    .address{
+        &__title{
+            margin-bottom: 10%;
+            font-size: 1.8em;
+        }
+        &__name{
+            font-size: 1.5em;
+        }
+        &__street{
+            font-size: 1.2em;
+            margin-bottom: 10%;
+        }
+        &__number{
+            font-size: 1.1em;
+        }
+        &__mail{
+            font-size: 1.1em;
+        }
+    }
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   //LAPTOP
+   .address{
+    &__title{
+        margin-bottom: 8%;
+        font-size: 1.6em;
+    }
+    &__name{
+        font-size: 1.3em;
+    }
+    &__street{
+        font-size: 1.1em;
+        margin-bottom: 10%;
+    }
+    &__number{
+        font-size: 1em;
+    }
+    &__mail{
+        font-size: 1em;
+    }
+}
+  }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .address{
+        &__title{
+            margin-bottom: 8%;
+            font-size: 1.6em;
+        }
+        &__name{
+            font-size: 1.4em;
+        }
+        &__street{
+            font-size: 1.1em;
+            margin-bottom: 15%;
+        }
+        &__number{
+            font-size: 1.1em;
+        }
+        &__mail{
+            font-size: 1.1em;
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .address{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1.6em;
+        }
+        &__name{
+            font-size: 1.2em;
+        }
+        &__street{
+            font-size: 1em;
+            margin-bottom: 5%;
+        }
+        &__number{
+            font-size: .9em;
+        }
+        &__mail{
+            font-size: .9em;
+        }
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .address{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1em;
+        }
+        &__name{
+            font-size: .8em;
+        }
+        &__street{
+            font-size: .7em;
+            margin-bottom: 5%;
+        }
+        &__number{
+            font-size: .6em;
+        }
+        &__mail{
+            font-size: .6em;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .address{
+        &__title{
+            margin-bottom: 5%;
+            font-size: 1em;
+        }
+        &__name{
+            font-size: .8em;
+        }
+        &__street{
+            font-size: .7em;
+            margin-bottom: 5%;
+        }
+        &__number{
+            font-size: .6em;
+        }
+        &__mail{
+            font-size: .6em;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .address{
+        &__title{
+            margin-bottom: 10%;
+            font-size: 1.8em;
+        }
+        &__name{
+            font-size: 1.7em;
+        }
+        &__street{
+            font-size: 1.2em;
+            margin-bottom: 8%;
+        }
+        &__number{
+            font-size: 1.1em;
+        }
+        &__mail{
+            font-size: 1.1em;
+        }
+    }
+}

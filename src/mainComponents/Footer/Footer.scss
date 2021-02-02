@@ -1,0 +1,137 @@
+.footer{
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    color: #f7e6dc; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1281px) {
+    //DESKTOP
+    .footer{
+        &__informations{
+            flex-basis: 25%;
+        }
+        &__links{
+            flex-basis: 25%;
+        }
+        &__note{
+            flex-basis: 100%;
+        }
+        &__author{
+            flex-basis: 100%;
+        }
+    }
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   //LAPTOP
+   .footer{
+    &__informations{
+        flex-basis: 25%;
+    }
+    &__links{
+        flex-basis: 25%;
+    }
+    &__note{
+        flex-basis: 100%;
+    }
+    &__author{
+        flex-basis: 100%;
+    }
+}
+  }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .footer{
+        &__informations{
+            flex-basis: 50%;
+        }
+        &__links{
+            flex-basis: 50%;
+        }
+        &__note{
+            flex-basis: 100%;
+        }
+        &__author{
+            flex-basis: 100%;
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .footer{
+        &__informations{
+            flex-basis: 40%;
+        }
+        &__links{
+            flex-basis: 40%;
+        }
+        &__note{
+            flex-basis: 100%;
+        }
+        &__author{
+            flex-basis: 100%;
+        }
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .footer{
+        &__informations{
+            flex-basis: 25%;
+        }
+        &__links{
+            flex-basis: 25%;
+        }
+        &__note{
+            flex-basis: 100%;
+        }
+        &__author{
+            flex-basis: 100%;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .footer{
+        &__informations{
+            flex-basis: 50%;
+        }
+        &__links{
+            flex-basis: 50%;
+        }
+        &__note{
+            flex-basis: 100%;
+        }
+        &__author{
+            flex-basis: 100%;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .footer{
+        background-image: url('../../images/wood.jpg');
+        height: 90vh;
+        &__informations{
+            flex-basis: 100%;
+        }
+        &__links{
+            flex-basis: 100%;
+        }
+        &__note{
+            flex-basis: 100%;
+        }
+        &__author{
+            flex-basis: 100%;
+        }
+    }
+}

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import ComponentTop from './mainComponents/ComponentTop/ComponentTop'
+import ComponentMid from './mainComponents/ComponentMid/ComponentMid'
+import ComponentBottom from './mainComponents/ComponentBottom/ComponentBottom'
+import Necklace from './mainComponents/Necklace/Necklace'
+import Footer from './mainComponents/Footer/Footer'
+import Wood from './mainComponents/Wood/Wood'
 
-function App() {
+class App extends React.Component{
+  render(){
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Necklace/>
+      <ComponentTop/>
+      <ComponentMid/>
+      <ComponentBottom/>
+      <Footer/>
+      </div>
+    <Wood/>
+    </>
   );
+}
 }
 
 export default App;

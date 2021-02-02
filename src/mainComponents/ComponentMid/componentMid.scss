@@ -1,0 +1,93 @@
+.caseMiddle{
+    //background: rgb(138,138,138);
+    //background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(241,240,245,1) 100%);
+    box-shadow: 0 0 5px 0px black;
+    display: flex;
+    &__gallery{
+      border-right: 5px solid #f7e6dc;
+      flex-basis: 33%;
+    }
+    &__product{
+      flex-basis: 33%;
+    }
+    &__about{
+      border-left: 5px solid #f7e6dc;
+      flex-basis: 33%;
+    }
+}
+
+ @media (min-width: 1281px) {
+   //DESKTOP
+  .caseMiddle{
+      margin: 5vh auto auto 0;
+  }
+    
+  }
+
+ @media (min-width: 1025px) and (max-width: 1280px) {
+   //LAPTOP
+    .caseMiddle{
+        margin: 5vh auto auto 0;
+    } 
+  }
+  
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+   //TABLET PORTRAIT
+    .caseMiddle{
+        margin: 5vh auto;
+        flex-direction: column;
+        &__gallery{
+          border-right: 0;
+          border-bottom: 5px solid #f7e6dc;
+        }
+        &__about{
+          border-left: 0;
+          border-top: 5px solid #f7e6dc;
+        }
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    //TABLET LANDSCAPE
+    .caseMiddle{
+        margin: 5vh auto auto 0;
+        flex-direction: row;
+        &__gallery{
+          border-bottom: 0;
+          border-right: 5px solid #f7e6dc;;
+        }
+        &__about{
+          border-left: 5px solid #f7e6dc;
+          border-top: 0;
+        }
+    }
+  }
+
+  @media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+}
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    //PHONE LANDSCAPE
+    .caseMiddle{
+        margin: 5vh auto auto 0;
+  }
+}
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    //PHONE PORTRAIT
+    .caseMiddle{
+        margin: 5vh auto;
+        flex-direction: column;
+        &__gallery{
+          border-right: 0;
+          border-bottom: 5px solid #f7e6dc;
+        }
+        &__about{
+          border-left: 0;
+          border-top: 5px solid #f7e6dc;
+        }
+  }
+  }

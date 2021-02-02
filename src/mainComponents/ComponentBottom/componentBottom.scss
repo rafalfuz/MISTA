@@ -1,0 +1,105 @@
+.caseBottom{
+    //background: rgb(138,138,138);
+    //background: radial-gradient(circle, rgba(138,138,138,1) 0%, rgba(241,240,245,1) 100%);
+    background-image: url('../../images/girl.jpg');
+    box-shadow: 0 0 5px 0px black;
+    position: relative;
+    //STOP
+    &__upLeft{
+        background-image: url('../../images/bracket.jpg');
+        background-size: cover;
+        clip-path: polygon(25% 0, 100% 0, 50% 100%, 0 100%);
+        width: 50%;
+        height: 49.5%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__upRight{
+        background-image: url('../../images/earrings.jpg');
+        background-size: cover;
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 50% 100%);
+        width: 50%;
+        height: 49.5%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__downLeft{
+        background-image: url('../../images/love.jpg');
+        background-size: cover;
+        clip-path: polygon(0 0, 50% 0, 100% 100%, 25% 100%);;
+        width: 50%;
+        height: 49.5%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    &__downRight{
+        background-image: url('../../images/jewellery-792085_640.jpg');
+        background-size: cover;
+        clip-path: polygon(50% 0, 100% 0, 75% 100%, 0 100%);
+        width: 50%;
+        height: 49.5%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: 1281px) {
+    //DESKTOP
+    .caseBottom{
+        margin: 5vh auto;
+    }
+      
+    }
+    
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        //LAPTOP
+        .caseBottom{
+        margin: 5vh auto;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        //TABLET PORTRAIT
+        .caseBottom{
+            height: 50vh;
+            margin: 5vh auto;
+            }
+    }
+        
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        //TABLET LANDSCAPE
+        .caseBottom{
+            height: 75vh;
+            margin: 5vh auto;
+            }
+    }
+
+    @media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+        //X-SERIES iPHONE LANDSCAPE
+        .caseBottom{
+            height: 95vh;
+            margin: 5vh auto;
+            }
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        //PHONE LANDSCAPE
+        .caseBottom{
+            margin: 5vh auto;
+            width: 90vw;
+            height: 90vh;;
+            }
+    }
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+        //PHONE PORTRAIT
+        .caseBottom{
+            height: 35vh;
+            margin: 5vh auto;
+            }
+    }
+  

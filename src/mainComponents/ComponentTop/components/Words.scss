@@ -1,0 +1,69 @@
+.topCaseWords{
+    width: 75%;
+    &__text{
+        font-size: 1.3em;
+        letter-spacing: 0.15em;
+    }
+}
+@media (min-width: 1281px) {
+  //DESKTOP
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+ //LAPTOP
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+//TABLET LANDSCAPE
+  .topCaseWords{
+    width: 80%;
+    &__text{
+        font-size: 1.4em;
+        letter-spacing: 0.1em;
+    }
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+//TABLET LANDSCAPE
+  .topCaseWords{
+    width: 90%;
+    &__text{
+        font-size: 1.3em;
+        letter-spacing: 0.1em;
+    }
+}
+}
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+//X-SERIES iPHONE LANDSCAPE
+  .topCaseWords{
+    width: 95%;
+    &__text{
+        font-size: .9em;
+        letter-spacing: 0.15em;
+    }
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+//PHONE LANDSCAPE
+  .topCaseWords{
+    width: 90%;
+    &__text{
+        font-size: .8em;
+        letter-spacing: 0.1em;
+    }
+}
+}
+@media (min-width: 320px) and (max-width: 480px){
+//PHONE PORTRAIT
+  .topCaseWords{
+    width: 95%;
+    &__text{
+        font-size: .7em;
+        letter-spacing: 0.1em;
+    }
+}
+}

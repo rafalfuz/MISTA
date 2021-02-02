@@ -1,0 +1,213 @@
+.gallery{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //background-color: cornflowerblue;
+    position: relative;
+    &__picOne{
+        //border: 1px solid orangered;
+        background-image: url('../../../images/heart.jpg');
+        background-position: center;
+        background-size: cover;
+        filter: blur(2px);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__picTwo{
+        //background-color: darkorchid;
+        //border: 1px solid whitesmoke;
+        background-image: url('../../../images/heart.jpg');
+        background-position: center;
+        background-size: cover;
+        filter: blur(1px);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__picThree{
+        //background-color: khaki;
+        //border: 1px solid hotpink;
+        background-image: url('../../../images/tablecloth.jpg');
+        //background-image: url('../../../images/ringsOnHands.jpg');
+        background-position: center;
+        background-size: cover;
+        filter: hue-rotate(270deg);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .gallery{
+        &__picOne{
+            width: 80%;
+            height: 50%;
+            bottom:10%;
+            right: 5%;
+        }
+        &__picTwo{
+            width: 70%;
+            height: 35%;
+            bottom:40%;
+            left: 5%;
+        }
+        &__picThree{
+            width: 75%;
+            height: 50%;
+            bottom: 17.5%;
+            left: 10.5%;
+        }
+    }
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   //LAPTOP
+   .gallery{
+    &__picOne{
+        width: 82.5%;
+        height: 50%;
+        bottom:10%;
+        right: 5%;
+    }
+    &__picTwo{
+        width: 70%;
+        height: 35%;
+        bottom:40%;
+        left: 5%;
+    }
+    &__picThree{
+        width: 80%;
+        height: 50%;
+        bottom: 17.5%;
+        left: 8.5%;
+    }
+}
+  }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .gallery{
+        &__picOne{
+            width: 82.5%;
+            height: 85%;
+            bottom:10%;
+            right: 15%;
+        }
+        &__picTwo{
+            width: 70%;
+            height: 60%;
+            bottom:5%;
+            left: 25%;
+        }
+        &__picThree{
+            width: 80%;
+            height: 70%;
+            bottom: 15%;
+            left: 10%;
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .gallery{
+        &__picOne{
+            width: 82.5%;
+            height: 50%;
+            bottom:15%;
+            right: 5%;
+        }
+        &__picTwo{
+            width: 70%;
+            height: 35%;
+            bottom:45%;
+            left: 5%;
+        }
+        &__picThree{
+            width: 80%;
+            height: 50%;
+            bottom: 22.5%;
+            left: 8.5%;
+        }
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .gallery{
+        &__picOne{
+            width: 82.5%;
+            height: 55%;
+            bottom:15%;
+            right: 5%;
+        }
+        &__picTwo{
+            width: 70%;
+            height: 40%;
+            bottom:45%;
+            left: 5%;
+        }
+        &__picThree{
+            width: 80%;
+            height: 55%;
+            bottom: 22.5%;
+            left: 8.5%;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .gallery{
+        &__picOne{
+            width: 82.5%;
+            height: 55%;
+            bottom:15%;
+            right: 5%;
+        }
+        &__picTwo{
+            width: 70%;
+            height: 40%;
+            bottom:45%;
+            left: 3%;
+        }
+        &__picThree{
+            width: 83%;
+            height: 55%;
+            bottom: 22.5%;
+            left: 7%;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .gallery{
+        &__picOne{
+            width: 82.5%;
+            height: 85%;
+            bottom:10%;
+            right: 15%;
+        }
+        &__picTwo{
+            width: 70%;
+            height: 60%;
+            bottom:5%;
+            left: 25%;
+        }
+        &__picThree{
+            width: 75%;
+            height: 75%;
+            bottom: 15%;
+            left: 15%;
+        }
+    }
+}

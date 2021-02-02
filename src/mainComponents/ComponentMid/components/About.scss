@@ -1,0 +1,129 @@
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title{
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+    &__description{
+        width: 75%;
+        margin: 2%;
+        font-size: 1em;
+        text-indent: 10px;
+    }
+}
+@media (min-width: 1281px) {
+    //DESKTOP
+    .about{
+        &__title{
+            font-size: 2em;
+            margin-bottom: 5vh;
+        }
+        &__description{
+            width: 75%;
+            margin: 2%;
+            font-size: 1em;
+            text-indent: 10px;
+        }
+    }
+  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   //LAPTOP
+   .about{
+    &__title{
+        font-size: 1.8em;
+        margin-bottom: 5%;
+    }
+    &__description{
+        width: 75%;
+        margin: 2%;
+        font-size: .8em;
+        text-indent: 10px;
+    }
+}
+  }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    //TABLET PORTRAIT
+    .about{
+        &__title{
+            font-size: 1.7em;
+            margin-bottom: 1%;
+        }
+        &__description{
+            width: 90%;
+            margin: 1%;
+            font-size: 1.2em;
+            text-indent: 10px;
+        }
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    //TABLET LANDSCAPE
+    .about{
+        &__title{
+            font-size: 1.8em;
+            margin-bottom: 5%;
+        }
+        &__description{
+            width: 75%;
+            margin: 2%;
+            font-size: .8em;
+            text-indent: 10px;
+        }
+    }
+  }
+
+@media (min-width: 812px) and (max-width: 926px) and (orientation: landscape){
+    //X-SERIES iPHONE LANDSCAPE
+    .about{
+        &__title{
+            font-size: 1em;
+            margin-bottom: 5%;
+        }
+        &__description{
+            width: 90%;
+            margin: 2%;
+            font-size: .6em;
+            text-indent: 10px;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    //PHONE LANDSCAPE
+    .about{
+        &__title{
+            font-size: 1em;
+            margin-bottom: 5%;
+        }
+        &__description{
+            width: 90%;
+            margin: 2%;
+            font-size: .5em;
+            text-indent: 10px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    //PHONE PORTRAIT
+    .about{
+        &__title{
+            font-size: .9em;
+            margin-bottom: 1%;
+        }
+        &__description{
+            width: 95%;
+            margin: 1%;
+            font-size: .6em;
+            text-indent: 10px;
+        }
+    }
+}
