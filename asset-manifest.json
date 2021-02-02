@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MISTA/static/css/main.a760ca18.chunk.css",
+    "main.js": "/MISTA/static/js/main.df3b6ace.chunk.js",
+    "main.js.map": "/MISTA/static/js/main.df3b6ace.chunk.js.map",
+    "runtime-main.js": "/MISTA/static/js/runtime-main.4819af08.js",
+    "runtime-main.js.map": "/MISTA/static/js/runtime-main.4819af08.js.map",
+    "static/js/2.9eb7bb1f.chunk.js": "/MISTA/static/js/2.9eb7bb1f.chunk.js",
+    "static/js/2.9eb7bb1f.chunk.js.map": "/MISTA/static/js/2.9eb7bb1f.chunk.js.map",
+    "index.html": "/MISTA/index.html",
+    "static/css/main.a760ca18.chunk.css.map": "/MISTA/static/css/main.a760ca18.chunk.css.map",
+    "static/js/2.9eb7bb1f.chunk.js.LICENSE.txt": "/MISTA/static/js/2.9eb7bb1f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/MISTA/static/media/Lorenzo.7ef1be6b.jpg",
+    "static/media/componentBottom.scss": "/MISTA/static/media/love.28e85adc.jpg",
+    "static/media/Gallery.scss": "/MISTA/static/media/tablecloth.83bb9a29.jpg",
+    "static/media/index.css": "/MISTA/static/media/mista_background.0e5af241.png",
+    "static/media/necklace.2d4d519f.png": "/MISTA/static/media/necklace.2d4d519f.png",
+    "static/media/Picture.scss": "/MISTA/static/media/pocketWatch.7afa701f.jpg",
+    "static/media/Wood.scss": "/MISTA/static/media/wood.b1fe6807.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4819af08.js",
+    "static/js/2.9eb7bb1f.chunk.js",
+    "static/css/main.a760ca18.chunk.css",
+    "static/js/main.df3b6ace.chunk.js"
+  ]
+}
